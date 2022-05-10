@@ -18,7 +18,6 @@ footer {
   margin-block: 10px;
 }
 
-
 :root {
   --primary-color: #0d2b45;
   --secondary-color: #203c56;
@@ -27,9 +26,7 @@ footer {
 }
 
 .navbar-brand:hover {
-
   opacity: 0.3;
-
 }
 
 .btn,
@@ -45,10 +42,8 @@ footer {
   border: none;
 }
 
-
-.row>div {
+.row > div {
   /* border: 1px solid blue; */
-
 }
 
 .col-3,
