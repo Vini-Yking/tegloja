@@ -17,6 +17,9 @@ footer {
     margin-block: 10px;
 }
 
+:root {
+    --primary-color: #ffcc80;
+}
 
 .row>div {
     border: 1px solid blue;
@@ -30,12 +33,11 @@ footer {
 
 .col-3 {
 
-    background-color: aliceblue;
-
+    background-color: var(--primary-color)
 }
 
 header .row .col {
-    background-color: rgb(125, 20, 146);
+
     margin-left: 10px;
 }
 
@@ -55,29 +57,29 @@ main .col-2 {
 }
 
 main .red {
-    background-color: rgb(169, 18, 18);
+
     margin: 0;
 }
 
 main .row .col {
-    background-color: rgb(18, 169, 94);
+
     margin-left: 10px;
 }
 
 footer .div row {
 
 
-    background-color: rgb(114, 203, 6);
+    background-color: var(--primary-color)
 }
 
 footer .col {
     height: calc(20vh - 20px);
-    background-color: bisque;
+
 
 }
 
 footer div.teste {
-    background-color: rgb(169, 18, 18);
+
     margin-inline: 15px;
 }
 
