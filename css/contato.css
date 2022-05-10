@@ -45,8 +45,10 @@ footer {
   border: none;
 }
 
+
 .row>div {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
+
 }
 
 .col-3,
@@ -56,6 +58,14 @@ footer {
 
 .col-3 {
   background-color: var(--primary-color);
+}
+
+main .row .col,
+input.form-control,
+textarea.form-control {
+  padding-block: 10px;
+  border-radius: 0.8rem;
+  box-shadow: 2px 2px 2px 2px;
 }
 
 header .row .col {
