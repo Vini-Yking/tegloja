@@ -1,0 +1,78 @@
+* {
+  /* margin: 0;
+    padding: 0; */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body,
+html {
+  max-width: 100%;
+  min-width: 15%;
+  height: calc(100% - 10px);
+}
+
+header,
+main,
+footer {
+  margin-block: 10px;
+}
+
+:root {
+  --primary-color: #ffcc80;
+}
+
+.row > div {
+  border: 1px solid blue;
+}
+
+.col-3,
+.col-10 {
+  height: calc(20vh - 10px);
+}
+
+.col-3 {
+  background-color: var(--primary-color);
+}
+
+header .row .col {
+  margin-left: 10px;
+}
+
+.col-4 {
+  padding: 5px;
+}
+
+row {
+  margin: 0.5rem;
+}
+
+main .col-2 {
+  height: calc(60vh - 10px);
+  margin-inline: 10px;
+}
+
+main .red {
+  margin: 0;
+}
+
+main .row .col {
+  margin-left: 10px;
+}
+
+footer .div row {
+  background-color: var(--primary-color);
+}
+
+footer .col {
+  height: calc(20vh - 20px);
+}
+
+footer div.teste {
+  margin-inline: 15px;
+}
+
+svg {
+  justify-content: center;
+  align-content: center;
+}
