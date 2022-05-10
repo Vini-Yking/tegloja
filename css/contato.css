@@ -18,6 +18,9 @@ footer {
   margin-block: 10px;
 }
 
+form {
+  margin-bottom: 5px;
+}
 
 :root {
   --primary-color: #0d2b45;
