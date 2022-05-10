@@ -15,6 +15,7 @@ header,
 main,
 footer {
     margin-block: 10px;
+    background-color: rgb(88, 68, 68);
 }
 
 :root {
