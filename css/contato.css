@@ -18,11 +18,34 @@ footer {
   margin-block: 10px;
 }
 
+
 :root {
-  --primary-color: #ffcc80;
+  --primary-color: #0d2b45;
+  --secondary-color: #203c56;
+  --terd-color: #d08159;
+  --fort-color: #ffaa5e;
 }
 
-.row > div {
+.navbar-brand:hover {
+
+  opacity: 0.3;
+
+}
+
+.btn,
+.btn-primary {
+  background-color: var(--primary-color);
+  color: #fffefc;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: var(--terd-color);
+  color: #fffefc;
+  border: none;
+}
+
+.row>div {
   border: 1px solid blue;
 }
 
@@ -73,6 +96,13 @@ footer div.teste {
 }
 
 svg {
+  font-size: 30px;
   justify-content: center;
   align-content: center;
+}
+
+img {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 0.5rem;
 }
