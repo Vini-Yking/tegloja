@@ -17,6 +17,10 @@
   border: none;
 }
 
+.carousel-item .d-block {
+  margin: 0 auto;
+}
+
 .btn-primary:hover {
   background-color: var(--terd-color);
   color: #fffefc;
@@ -24,11 +28,12 @@
 }
 
 .d-block {
-  height: 200px;
+  height: 100%;
+  width: 50%;
 }
 
-img {
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
+@media (min-width: 768px) {
+  .d-block {
+    width: 30%;
+  }
 }
