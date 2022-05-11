@@ -12,11 +12,8 @@ html {
   height: calc(100% - 10px);
 }
 
-
 .navbar-brand:hover {
-
   opacity: 0.3;
-
 }
 
 .row {
@@ -43,9 +40,28 @@ header {
   height: 33vh;
 }
 
-
 i,
 span {
   font-size: 2rem;
   color: rgb(255, 255, 255);
+}
+
+ .containerMain {
+  background-color: var(--primary-color); 
+} 
+
+main .col-6 {
+  height: calc(85vh - 10px);
+  margin-inline: 10px;
+}
+
+.textSobre{
+  font-size: 18px;
+}
+
+.imgSobre {
+  width: 35rem;
+  height: 35rem;
+  float: right;
+  padding-right: 45px;
 }
