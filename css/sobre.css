@@ -52,15 +52,17 @@ span {
   background-color: var(--primary-color); 
   box-shadow: 5px 5px 5px rgb(114, 112, 112);
   border-radius: 0.8rem;
+  padding:4px;
 } 
 
 main {
-  height: calc(65vh - 10px);
+  height:60vh;
   margin-inline: 10px;
+  /* overflow:hidden ; */
 }
 
 .textSobre{
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .imgSobre {
@@ -68,7 +70,6 @@ main {
   height: 25rem;
   float: right;
   padding-right: 45px;
-
 }
 
 @media(max-width:360px) {
