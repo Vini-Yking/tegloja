@@ -1,16 +1,66 @@
-body {
-  background-color: rgb(255, 255, 255);
-  font-family: Arial, Helvetica, sans-serif;
-  overflow: hidden;
+* {
+  /* margin: 0;
+    padding: 0; */
 }
+
+body,
+html {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  max-width: 100%;
+  min-width: 15%;
+  height: calc(100% - 10px);
+}
+
+header {
+  position: fixed;
+}
+
+footer {
+  position: absolute;
+  bottom: -0.6rem;
+  width: 100vw;
+
+}
+
+header,
+main,
+footer {
+  margin-block: 10px;
+}
+
+:root {
+  --primary-color: #0d2b45;
+  --secondary-color: #203c56;
+  --terd-color: #d08159;
+  --fort-color: #ffaa5e;
+}
+
+.navbar-brand:hover {
+  opacity: 0.3;
+}
+
+
+.btn,
+.btn-primary {
+  background-color: var(--primary-color);
+  color: #fffefc;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: var(--terd-color);
+  color: #fffefc;
+  border: none;
+}
+
 .area-login {
   display: flex;
   justify-content: center;
-  align-items: center;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
+  margin-top: 5rem;
+
 }
+
 .login {
   display: flex;
   flex-direction: column;
@@ -21,11 +71,13 @@ body {
   height: 320px;
   padding: 35px;
 }
+
 .login form {
   display: flex;
   width: 100%;
   flex-direction: column;
 }
+
 .login input {
   margin-top: 10px;
   background-color: #252a34;
@@ -36,27 +88,59 @@ body {
   outline: none;
   border-radius: 8px;
 }
+
 .login svg {
   width: 80px;
   height: auto;
 }
+
 .input::placeholder {
   color: #cbd0f7;
   font-size: 14px;
 }
+
 form [type="submit"] {
   display: block;
-  background-color: #5568fe;
+  background-color: var(--primary-color);
   font-size: 20px;
   text-transform: uppercase;
   font-weight: bold;
   cursor: pointer;
 }
+
 p {
   color: #cbd0f7;
 }
+
 a {
-  color: #5568fe;
+  color: var(--fort-color);
   text-decoration: none;
   margin-left: 10px;
+}
+
+img {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 0.5rem;
+}
+
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+
+
+}
+
+footer .div row {
+  background-color: var(--primary-color);
+}
+
+footer .col {
+  height: calc(20vh - 20px);
+}
+
+footer div.teste {
+  margin-inline: 15px;
 }
