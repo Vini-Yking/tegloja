@@ -74,3 +74,9 @@ svg {
   box-shadow: 0 0 0 0.25rem #f5cd1d;
   background-color: var(--terd-color);
 }
+
+.footer-center {
+  display: flex;
+  justify-content: center;
+  margin-block: 0.7rem;
+}
