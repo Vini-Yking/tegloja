@@ -86,3 +86,23 @@ img {
   width: 3rem;
   border-radius: 0.5rem;
 }
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+
+
+}
+
+footer .div row {
+  background-color: var(--primary-color);
+}
+
+footer .col {
+  height: calc(20vh - 20px);
+}
+
+footer div.teste {
+  margin-inline: 15px;
+}

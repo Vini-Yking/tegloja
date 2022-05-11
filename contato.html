@@ -31,6 +31,7 @@
           <li class="nav-item">
             <a class="nav-link" href="./contato.html">Contato</a>
           </li>
+          <li class="login"><a href="./login.html"><button class="btn btn-primary" type="button">Login</button></a></li>
         </ul>
         <form class="d-flex">
           <input class="form-control me-2" type="text" placeholder="Search" />
@@ -42,15 +43,17 @@
 
   <!-- Main -->
   <main class="container">
-    <div class="row">
+    <div class="row mb-5">
       <div class="col">
-        <div class="col-6 justify-content-center">
+        <div class="col-md-6 justify-content-center">
           <h1>Contato</h1>
           <p>Sinta-se à vontade para entrar em contato conosco!</p>
           <form action="/action_page.php">
             <div class="mb-3 mt-3">
-              <label for="email" class="form-label">Nome:</label>
-              <input type="text" class="form-control" id="nome" placeholder="Entre o seu nome" name="Nome" />
+              <div class="format-floating">
+                <label for="email" class="form-label">Nome:</label>
+                <input type="text" class="form-control" id="nome" placeholder="Entre o seu nome" name="Nome" />
+              </div>
             </div>
             <div class="mb-3">
               <label for="pwd" class="form-label">Email:</label>
@@ -75,7 +78,7 @@
   <!-- Footer -->
   <footer class="bg-dark text-center text-white">
     <!-- Grid container -->
-    <div class="container p-4">
+    <div class="container p">
       <!-- Section: Social media -->
       <section class="mb-4">
         <!-- Instagram -->
@@ -107,20 +110,8 @@
         </svg>
 
       </section>
-      <!-- Section: Social media -->
 
-
-      <!-- Copyright -->
-      <!-- <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
-        © 2020 Copyright:
-        <a class="text-white" href="https://mdbootstrap.com/"
-          >MDBootstrap.com</a
-        >
-      </div> -->
-      <!-- Copyright -->
   </footer>
-  <!-- Footer -->
-  <!-- Bootstrap JS -->
 </body>
 
 </html>
