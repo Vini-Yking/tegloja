@@ -1,33 +1,6 @@
-* {
-  /* margin: 0;
-    padding: 0; */
-}
-
-body,
-html {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  max-width: 100%;
-  height: 100%;
-  height: calc(100% - 10px);
-}
-
-header {
-  position: fixed;
-}
-
-
-
 header,
 main {
   margin-block: 10px;
-}
-
-:root {
-  --primary-color: #0d2b45;
-  --secondary-color: #203c56;
-  --terd-color: #d08159;
-  --fort-color: #ffaa5e;
 }
 
 .navbar-brand:hover {
@@ -46,10 +19,6 @@ main {
   color: #fffefc;
   border: none;
   box-shadow: 4px 3px 3px var(--primary-color);
-}
-
-.row>div {
-  /* border: 1px solid blue; */
 }
 
 .col-3,
@@ -105,39 +74,6 @@ main .row .col {
   margin-left: 10px;
 }
 
-
-svg {
-  font-size: 30px;
-  justify-content: center;
-  align-content: center;
-}
-
-img {
-  height: 3rem;
-  width: 3rem;
-  border-radius: 0.5rem;
-}
-
 .submit {
   width: 10rem;
-}
-
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100vw;
-
-
-}
-
-footer .div row {
-  background-color: var(--primary-color);
-}
-
-footer .col {
-  height: calc(20vh - 20px);
-}
-
-footer div.teste {
-  margin-inline: 15px;
 }

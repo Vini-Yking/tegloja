@@ -13,13 +13,6 @@ html {
 }
 
 
-:root {
-  --primary-color: #0d2b45;
-  --secondary-color: #203c56;
-  --terd-color: #d08159;
-  --fort-color: #ffaa5e;
-}
-
 .navbar-brand:hover {
 
   opacity: 0.3;
@@ -58,51 +51,14 @@ div .blue {
   border-inline: 13px solid white;
 }
 
-header,
-footer {
+header {
   margin-block: 10px;
   height: 33vh;
 }
 
-*>.container {
-  background-color: var(--primary-color);
-  margin-block: 10px;
-}
 
 i,
 span {
   font-size: 2rem;
   color: rgb(255, 255, 255);
-}
-
-.svg {
-  font-size: 30px;
-  justify-content: center;
-  align-content: center;
-}
-
-img {
-  height: 3rem;
-  width: 3rem;
-  border-radius: 0.5rem;
-}
-
-footer {
-  position: absolute;
-  bottom: 0;
-  width: 100vw;
-
-
-}
-
-footer .div row {
-  background-color: var(--primary-color);
-}
-
-footer .col {
-  height: calc(20vh - 20px);
-}
-
-footer div.teste {
-  margin-inline: 15px;
 }

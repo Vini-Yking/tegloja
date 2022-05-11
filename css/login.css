@@ -1,8 +1,3 @@
-* {
-  /* margin: 0;
-    padding: 0; */
-}
-
 body,
 html {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -16,17 +11,17 @@ header {
   position: fixed;
 }
 
-footer {
-  position: absolute;
-  bottom: -0.6rem;
-  width: 100vw;
-
+header,
+main {
+  margin-block: 10px;
 }
 
-header,
-main,
-footer {
-  margin-block: 10px;
+.container-fluid {
+  padding-left: 0;
+}
+
+.navbar-nav {
+  padding-left: 0;
 }
 
 :root {
@@ -118,19 +113,18 @@ a {
   margin-left: 10px;
 }
 
+
 img {
-  height: 3rem;
-  width: 3rem;
+  height: 5rem;
+  width: 4rem;
   border-radius: 0.5rem;
 }
 
 
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100vw;
-
-
 }
 
 footer .div row {
