@@ -49,13 +49,13 @@ span {
 }
 
  .containerMain {
-  background-color: var(--primary-color);  
-  
- 
+  background-color: var(--primary-color); 
+  box-shadow: 5px 5px 5px rgb(114, 112, 112);
+  border-radius: 0.8rem;
 } 
 
-main .col-6 {
-  height: calc(100vh - 10px);
+main {
+  height: calc(65vh - 10px);
   margin-inline: 10px;
 }
 
@@ -64,8 +64,17 @@ main .col-6 {
 }
 
 .imgSobre {
-  width: 35rem;
-  height: 35rem;
+  width: 25rem;
+  height: 25rem;
   float: right;
   padding-right: 45px;
+
 }
+
+@media(max-width:360px) {
+   .imgSobre{
+  width: 15rem;
+  height: 15rem;
+  } 
+}
+
