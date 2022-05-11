@@ -13,6 +13,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./css/sobre.css">
   <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="/css/login.css">
 </head>
 
 <body>
@@ -33,7 +34,11 @@
           <li class="nav-item">
             <a class="nav-link" href="./contato.html">Contato</a>
           </li>
-          <li class="login"><a href="./login.html"><button class="btn btn-primary" type="button">Login</button></a></li>
+          </li>
+          <li class="login"><button class="btn btn-primary" type="button" data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop">
+              Login
+            </button></li>
         </ul>
         <form class="d-flex">
           <input class="form-control me-2" type="text" placeholder="Search" />
@@ -42,6 +47,44 @@
       </div>
     </div>
   </nav>
+
+  <!-- modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Login</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <section class="area-login">
+            <div class="login-tela">
+              <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                  class="bi bi-person-circle" viewBox="0 0 16 16">
+                  <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+                  <path fill-rule="evenodd"
+                    d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+                </svg>
+              </div>
+              <form method="post">
+                <input type="text" name="email" placeholder="Digite seu email" autofocus />
+                <input type="password" name="senha" placeholder="Digite sua senha" autofocus />
+                <input type="submit" value="entrar" />
+              </form>
+              <p>Ainda não tem uma conta?<a href="/cadastro.html">Criar conta</a></p>
+            </div>
+          </section>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Understood</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <div class="container">
     <div class="row um">
       <div class="col-3"> <span class="gabriel">Gabriel Bochimpani </a></div>

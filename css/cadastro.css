@@ -21,7 +21,7 @@ span {
     padding-inline: 1rem;
     padding-block: 1rem;
     border-radius: 0.5rem;
-    box-shadow: 2px 2px 2px 2px;
+    box-shadow: 4px 4px 4px 4px;
 }
 
 h3 {
@@ -113,19 +113,6 @@ div.Satisfacao {
     opacity: 0.3;
 }
 
-.btn,
-.btn-primary {
-    background-color: var(--primary-color);
-    color: #fffefc;
-    border: none;
-}
-
-.btn-primary:hover {
-    background-color: var(--terd-color);
-    color: #fffefc;
-    border: none;
-    box-shadow: 4px 3px 3px var(--primary-color);
-}
 
 .submit {
     width: 10rem;

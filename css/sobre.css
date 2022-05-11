@@ -19,19 +19,6 @@ html {
 
 }
 
-.btn,
-.btn-primary {
-  background-color: var(--primary-color);
-  color: #fffefc;
-  border: none;
-}
-
-.btn-primary:hover {
-  background-color: var(--terd-color);
-  color: #fffefc;
-  border: none;
-}
-
 .row {
   align-content: center;
 }

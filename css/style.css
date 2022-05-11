@@ -10,30 +10,11 @@ html {
     height: calc(100% - 10px);
 }
 
-:root {
-    --primary-color: #0d2b45;
-    --secondary-color: #203c56;
-    --terd-color: #d08159;
-    --fort-color: #ffaa5e;
-}
 
 .navbar-brand:hover {
 
     opacity: 0.3;
 
-}
-
-.btn,
-.btn-primary {
-    background-color: var(--primary-color);
-    color: #fffefc;
-    border: none;
-}
-
-.btn-primary:hover {
-    background-color: var(--terd-color);
-    color: #fffefc;
-    border: none;
 }
 
 header,
