@@ -5,6 +5,13 @@ body {
     font-size: 1rem;
 }
 
+span {
+    flex-direction: row-reverse;
+
+    font-size: smaller;
+    font-style: italic;
+}
+
 .formulario {
     background-color: rgb(252, 252, 252);
     margin-top: 1.25rem;
@@ -14,7 +21,7 @@ body {
     padding-inline: 1rem;
     padding-block: 1rem;
     border-radius: 0.5rem;
-    box-shadow: 2px 2px 2px 2px;
+    box-shadow: 4px 4px 4px 4px;
 }
 
 h3 {
@@ -28,14 +35,12 @@ h3 {
 
 .field {
     width: 100%;
-    margin: 0.5rem 0;
+    margin: 1rem 0;
 }
 
 .field label,
 .field span {
-    padding-left: 10px;
-
-    display: block;
+    display: flex;
     width: 100%;
 }
 
@@ -108,19 +113,6 @@ div.Satisfacao {
     opacity: 0.3;
 }
 
-.btn,
-.btn-primary {
-    background-color: var(--primary-color);
-    color: #fffefc;
-    border: none;
-}
-
-.btn-primary:hover {
-    background-color: var(--terd-color);
-    color: #fffefc;
-    border: none;
-    box-shadow: 4px 3px 3px var(--primary-color);
-}
 
 .submit {
     width: 10rem;
