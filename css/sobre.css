@@ -49,7 +49,6 @@ span {
 }
 
  .containerMain {
-<<<<<<< HEAD
   background-color: var(--primary-color); 
   box-shadow: 5px 5px 5px rgb(114, 112, 112);
   border-radius: 0.8rem;
@@ -57,15 +56,6 @@ span {
 
 main {
   height: calc(65vh - 10px);
-=======
-  background-color: var(--primary-color);  
-  
- 
-} 
-
-main .col-6 {
-  height: calc(100vh - 10px);
->>>>>>> 0be5d91f51563f61a85805bf59ef266a45bbbc18
   margin-inline: 10px;
 }
 
