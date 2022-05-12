@@ -62,6 +62,7 @@ function msg() {
       document.querySelectorAll(".obrigatorio")[i].textContent =
         "* Cheque esse campo";
       document.querySelectorAll(".obrigatorio")[i].style.color = "red";
+      document.querySelectorAll(".obrigatorio")[i].style.transition = "800ms";
     }
 
     alert("Faltam dados obrigatórios.");
