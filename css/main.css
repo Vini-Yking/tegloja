@@ -56,14 +56,14 @@ svg {
 .btn,
 .btn-primary {
   background-color: var(--primary-color);
-  color: #fffefc;
   border: none;
+  margin-inline: 4px;
 }
 
 
 .btn-primary:hover {
   background-color: var(--terd-color);
-  color: #fffefc;
+
   border: none;
   box-shadow: 4px 3px 3px var(--primary-color);
   transition: 300ms;
@@ -80,4 +80,9 @@ svg {
   display: flex;
   justify-content: center;
   margin-block: 0.7rem;
+}
+
+.card:hover {
+  box-shadow: 0 0 3px 2px var(--fort-color);
+  transition: 300ms;
 }
