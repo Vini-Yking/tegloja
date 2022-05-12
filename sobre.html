@@ -47,19 +47,19 @@
       </div>
     </div>
   </nav>
-  <!-- modal -->
+  <!-- Modal Login -->
   <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
     aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
-        <div class="modal-header">
+        <div class="modal-header bg-dark text-center text-white">
           <h5 class="modal-title" id="staticBackdropLabel">Login</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
           <section class="area-login">
-            <div class="login-tela">
-              <div>
+            <div class="login-tela bg-dark">
+              <div class="mb-4">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                   class="bi bi-person-circle" viewBox="0 0 16 16">
                   <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
@@ -68,17 +68,17 @@
                 </svg>
               </div>
               <form method="post">
-                <input type="text" name="email" placeholder="Digite seu email" autofocus />
-                <input type="password" name="senha" placeholder="Digite sua senha" autofocus />
-                <input type="submit" value="entrar" />
+                <input type="text" name="email" class="mb-3" placeholder="Digite seu email" autofocus />
+                <input type="password" name="senha" class="mb-3" placeholder="Digite sua senha" autofocus />
+                <input type=" submit" class="btn-primary btn" class="mb-3" value="Entrar" />
               </form>
-              <p>Ainda não tem uma conta?<a href="/cadastro.html">Criar conta</a></p>
+              <span class="criar-conta">Ainda não tem uma conta?<a href="/cadastro.html">Criar
+                  conta</a></span>
             </div>
           </section>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Understood</button>
+        <div class="modal-footer bg-dark text-center text-white footer-center">
+          <button type="button" class="btn btn-primary sair" data-bs-dismiss="modal">Cancelar</button>
         </div>
       </div>
     </div>
