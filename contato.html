@@ -58,7 +58,7 @@
         <div class="modal-body">
           <section class="area-login">
             <div class="login-tela bg-dark">
-              <div>
+              <div class="mb-4">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                   class="bi bi-person-circle" viewBox="0 0 16 16">
                   <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
@@ -67,15 +67,16 @@
                 </svg>
               </div>
               <form method="post">
-                <input type="text" name="email" placeholder="Digite seu email" autofocus />
-                <input type="password" name="senha" placeholder="Digite sua senha" autofocus />
-                <input type=" submit" class="btn-primary btn" value="Entrar" />
+                <input type="text" name="email" class="mb-3" placeholder="Digite seu email" autofocus />
+                <input type="password" name="senha" class="mb-3" placeholder="Digite sua senha" autofocus />
+                <input type=" submit" class="btn-primary btn" class="mb-3" value="Entrar" />
               </form>
-              <span>Ainda não tem uma conta?<a href="/cadastro.html">Criar conta</a></span>
+              <span class="criar-conta">Ainda não tem uma conta?<a href="/cadastro.html">Criar
+                  conta</a></span>
             </div>
           </section>
         </div>
-        <div class="modal-footer bg-dark text-center text-white">
+        <div class="modal-footer bg-dark text-center text-white footer-center">
           <button type="button" class="btn btn-primary sair" data-bs-dismiss="modal">Cancelar</button>
         </div>
       </div>
