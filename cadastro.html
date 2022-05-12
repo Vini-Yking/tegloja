@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="/css/login.css">
     <script src="js/scriptCadastro.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="/js/scriptLogin.js" defer></script>
 </head>
 
 <body>
@@ -89,7 +90,7 @@
             </div>
 
             <div class="field">
-                Email: <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+                Email: <input type="email" id="emailCadastro" name="email" placeholder="Digite seu e-mail">
                 <br><span class="obrigatorio"> * campo obrigatório</span>
             </div>
 
@@ -123,13 +124,6 @@
             <input type="submit" class="btn btn-primary submit" id="cadastro" name="Enviar Formulário" onclick="msg()">
 
         </form>
-
-        <script>
-            function msg() {
-                alert("Cadastro Feito!");
-            }
-        </script>
-
 
     </main>
     <!-- Footer -->

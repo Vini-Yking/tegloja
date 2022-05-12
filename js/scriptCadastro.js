@@ -31,3 +31,26 @@ const validarSenha = () => {
     teste();
   }
 };
+
+function check() {
+  var nome = document.querySelector("#nome").value;
+  var email = document.querySelector("#emailCadastro").value;
+  var senha1 = document.querySelector("#senha1").value;
+  var senha2 = document.querySelector("#senha2").value;
+
+  if(nome !== "" && email !== "" && senha1 !== "" && senha2 !=="" && senha1 === senha2)
+    return true;
+  else{
+    return false;
+  }
+}
+
+
+function msg() {
+  if(check())
+    alert("Cadastro Feito!");
+  else{
+    alert("Faltam dados obrigatórios.")
+  }
+}
+
