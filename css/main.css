@@ -94,3 +94,7 @@ svg {
   box-shadow: 0 0 3px 2px var(--fort-color);
   transition: 300ms;
 }
+
+.page-link {
+  box-shadow: 3px 1px 6px 0px var(--primary-color);
+}
