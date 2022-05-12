@@ -11,7 +11,6 @@ main {
   opacity: 0.3;
 }
 
-
 .col-3,
 .col-10 {
   height: calc(20vh - 10px);
@@ -21,7 +20,7 @@ main {
   background-color: var(--primary-color);
 }
 
-main .row .col {
+main .row .bg-white {
   padding-block: 10px;
   border-radius: 0.5rem;
   box-shadow: 4px 6px 12px -4px;
@@ -37,7 +36,6 @@ main .row .col {
   background-color: var(--primary-color);
   border-color: var(--secondary-color);
 }
-
 
 textarea {
   margin-bottom: 1rem;
