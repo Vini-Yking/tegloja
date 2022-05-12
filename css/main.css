@@ -98,3 +98,21 @@ svg {
 .page-link {
   box-shadow: 3px 1px 6px 0px var(--primary-color);
 }
+
+.carousel-inner {
+  background-color: hsla(28, 100%, 68%, 0.607);
+  box-shadow: 6px 6px 9px -2px;
+  border-radius: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+img.d-block:hover {
+  box-shadow: 0 0 3px 2px var(--secondary-color);
+
+  transition: 300ms;
+}
+
+.carousel-indicators {
+
+  bottom: -0.845rem;
+}
