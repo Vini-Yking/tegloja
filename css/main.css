@@ -76,9 +76,9 @@ svg {
   background-color: var(--terd-color);
 }
 
-.Page {
+/* {
   box-shadow: 4px 4px 6px -4px;
-}
+} */
 
 .footer-center {
   display: flex;

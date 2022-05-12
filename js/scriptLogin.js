@@ -3,7 +3,6 @@ const senhas = ['123', 'batata123', 'batata123456', '1111', '123', '9999']
 
 const validarLogin = () => {
     // arrays de usuario e senha
-    var entrou = Boolean(false)
     var email = document.querySelector("#email").value;
     var senha = document.querySelector("#senha").value;
 

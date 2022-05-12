@@ -1,119 +1,118 @@
 body {
-    height: 100%;
-    width: 100%;
-    background-color: rgb(219, 219, 219);
-    font-size: 1rem;
+  height: 100%;
+  width: 100%;
+  background-color: rgb(219, 219, 219);
+  font-size: 1rem;
 }
 
 span {
-    flex-direction: row-reverse;
-    color: black;
-    font-size: smaller;
-    font-style: italic;
+  flex-direction: row-reverse;
+  color: black;
+  font-size: smaller;
+  font-style: italic;
 }
 
 .formulario {
-    background-color: rgb(252, 252, 252);
-    margin-top: 1.25rem;
-    margin-inline: auto;
-    max-width: 50vh;
-    min-width: 30vh;
-    padding-inline: 1rem;
-    padding-block: 1rem;
-    border-radius: 0.5rem;
-    box-shadow: 4px 6px 12px -4px;
+  background-color: rgb(252, 252, 252);
+  margin-top: 1.25rem;
+  margin-inline: auto;
+  max-width: 50vh;
+  min-width: 30vh;
+  padding-inline: 1rem;
+  padding-block: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 4px 6px 12px -4px;
 }
 
 h3 {
-    color: var(--primary-color);
+  color: var(--primary-color);
 }
 
 .formulario p {
-    width: 50%;
-    font-size: 1em;
+  width: 50%;
+  font-size: 1em;
 }
 
 .field {
-    width: 100%;
-    margin: 1rem 0;
+  width: 100%;
+  margin: 1rem 0;
 }
 
 .field label,
 .field span {
-    display: flex;
-    width: 100%;
+  display: flex;
+  width: 100%;
 }
 
 .radiobox label {
-    width: auto;
-    display: inline-block;
+  width: auto;
+  display: inline-block;
 }
 
-input[type=text],
-input[type=email],
-input[type=password],
+input[type="text"],
+input[type="email"],
+input[type="password"],
 textarea {
-    width: 100%;
-    padding-left: 10px;
-    height: 30px;
-    line-height: 30px;
-    border-radius: 15px;
-    border: 1px solid #ccc;
-    outline: none;
+  width: 100%;
+  padding-left: 10px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  outline: none;
 }
 
-input[type=date],
+input[type="date"],
 textarea {
-    width: 50%;
-    padding-left: 10px;
-    height: 30px;
-    line-height: 30px;
-    border-radius: 15px;
-    border: 1px solid #ccc;
-    outline: none;
+  width: 50%;
+  padding-left: 10px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  outline: none;
 }
 
-input[type=number] {
-    width: 10%;
-    padding-left: 10px;
-    height: 30px;
-    line-height: 30px;
-    border-radius: 15px;
-    border: 1px solid #ccc;
-    outline: none;
+input[type="number"] {
+  width: 10%;
+  padding-left: 10px;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  outline: none;
 }
 
 input#nao {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 
 textarea {
-    line-height: 20px;
-    padding: 10px;
-    height: 90px;
-    resize: none;
+  line-height: 20px;
+  padding: 10px;
+  height: 90px;
+  resize: none;
 }
 
-input[type=submit] {
-    display: block;
-    height: 35px;
-    border: none;
-    outline: 0;
-    cursor: pointer;
-    margin: 0 auto;
-    text-align: center;
-    border-radius: 15px;
+input[type="submit"] {
+  display: block;
+  height: 35px;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 15px;
 }
 
 div.Satisfacao {
-    margin-bottom: 1rem;
+  margin-bottom: 1rem;
 }
 
 .navbar-brand:hover {
-    opacity: 0.3;
+  opacity: 0.3;
 }
 
-
 .submit {
-    width: 10rem;
+  width: 10rem;
 }
