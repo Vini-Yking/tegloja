@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/css/cadastro.css">
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/login.css">
+    <script src="js/scriptCadastro.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" defer></script>
 </head>
 
@@ -68,7 +69,8 @@
                             </div>
                             <form method="post">
                                 <input type="text" name="email" placeholder="Digite seu email" autofocus />
-                                <input type="password" name="senha" placeholder="Digite sua senha" autofocus />
+                                <input type="password" id="senha" name="senha" placeholder="Digite sua senha"
+                                    autofocus />
                                 <input type="submit" value="entrar" />
                             </form>
                             <p>Ainda não tem uma conta?<a href="/cadastro.html">Criar conta</a></p>
@@ -84,63 +86,63 @@
     </div>
 
     <main class="container mb-6 pb-5">
-    <form class="formulario" method="post" action="envio.html">
-        <h3>Informe seu melhor cadastro!</h3>
-        <div class="field">
-            Nome:<input type="text" id="nome" name="nome" placeholder="Digite seu nome" required><br><span>* campo
-                obrigatório</span>
-        </div>
+        <form class="formulario" method="post" action="envio.html">
+            <h3>Informe seu melhor cadastro!</h3>
+            <div class="field">
+                Nome:<input type="text" id="nome" name="nome" placeholder="Digite seu nome" required><br><span>* campo
+                    obrigatório</span>
+            </div>
 
-        <div class="field">
-            Email: <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
-            <br><span> * campo obrigatório</span>
-        </div>
+            <div class="field">
+                Email: <input type="email" id="email" name="email" placeholder="Digite seu e-mail">
+                <br><span> * campo obrigatório</span>
+            </div>
 
-        <div class="field">
-            Senha: <input type="password" id="password" name="password" placeholder="Digite sua senha"><br><span> *
-                campo obrigatório</span>
-        </div>
+            <div class="field">
+                Senha: <input type="password" id="senha1" name="password" placeholder="Digite sua senha"><br><span> *
+                    campo obrigatório</span>
+            </div>
 
-        <div class="field">
-            Repita a senha: <input type="password" id="password" name="password"
-                placeholder="Repita a sua senha"><br><span> * campo obrigatório</span>
-        </div>
+            <div class="field">
+                Repita a senha: <input onblur="validarSenha('psw1', 'psw2')" type="password" id="senha2" name="password"
+                    placeholder="Repita a sua senha"><br><span> * campo obrigatório</span>
+            </div>
 
-        <div class="field">
-            Data de nascimento: <input type="date" id="data" name="Data de nascimento">
-        </div>
+            <div class="field">
+                Data de nascimento: <input type="date" id="data" name="Data de nascimento">
+            </div>
 
-        <div class="field">
-            Deseja receber nossas novidades?<br>
-            <input type="radio" name="novidades" id="sim" value="Sim" checked>Sim
-            <input type="radio" name="novidades" id="nao" value="Não">Não<br>
-        </div>
+            <div class="field">
+                Deseja receber nossas novidades?<br>
+                <input type="radio" name="novidades" id="sim" value="Sim" checked>Sim
+                <input type="radio" name="novidades" id="nao" value="Não">Não<br>
+            </div>
 
-        <div class="Satisfacao">
-            Defina seu nivel de satisfação:<br>
-            Pouco satisfeito
-            <input type="range" id="satisfacao" name="satisfacao" min="1" max="10">
-            Muito satisfeito<br>
-        </div>
+            <div class="Satisfacao">
+                Defina seu nivel de satisfação:<br>
+                Pouco satisfeito
+                <input type="range" id="satisfacao" name="satisfacao" min="1" max="10">
+                Muito satisfeito<br>
+            </div>
 
-        <input type="submit" class="btn btn-primary submit" name="Enviar Formulário" onclick="msg()">
+            <input type="submit" class="btn btn-primary submit" name="Enviar Formulário" onclick="msg()">
 
-    </form>
+        </form>
 
-    <script>
-        function msg() {
-            alert("Cadastro Feito!");
-        }
-    </script>
+        <script>
+            function msg() {
+                alert("Cadastro Feito!");
+            }
+        </script>
 
 
-</main>
+    </main>
     <!-- Footer -->
     <footer class="bg-dark text-center text-white">
         <!-- Grid container -->
         <div class="container p">
             <!-- Section: Social media -->
-            <section class="mb-4">
+            <section class="footer-center">
                 <!-- Instagram -->
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
@@ -172,7 +174,6 @@
             </section>
 
     </footer>
-
 </body>
 
 </html>
