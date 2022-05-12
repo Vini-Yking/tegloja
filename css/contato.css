@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(219, 219, 219);
+}
+
 header,
 main {
   margin-block: 10px;
@@ -17,13 +21,16 @@ main {
   background-color: var(--primary-color);
 }
 
-main .row .col,
-#email,
-#nome,
-textarea.form-control {
+main .row .col {
   padding-block: 10px;
   border-radius: 0.5rem;
   box-shadow: 4px 6px 12px -4px;
+}
+
+#email,
+#nome {
+  border-radius: 3rem;
+  height: 2rem;
 }
 
 .form-check-input:checked {
