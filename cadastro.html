@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/css/cadastro.css">
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/login.css">
+    <script src="js/scriptCadastro.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" defer></script>
 </head>
 
@@ -68,7 +69,8 @@
                             </div>
                             <form method="post">
                                 <input type="text" name="email" placeholder="Digite seu email" autofocus />
-                                <input type="password" name="senha" placeholder="Digite sua senha" autofocus />
+                                <input type="password" id="senha" name="senha" placeholder="Digite sua senha"
+                                    autofocus />
                                 <input type="submit" value="entrar" />
                             </form>
                             <p>Ainda não tem uma conta?<a href="/cadastro.html">Criar conta</a></p>
@@ -97,12 +99,12 @@
             </div>
 
             <div class="field">
-                Senha: <input type="password" id="password" name="password" placeholder="Digite sua senha"><br><span> *
+                Senha: <input type="password" id="senha1" name="password" placeholder="Digite sua senha"><br><span> *
                     campo obrigatório</span>
             </div>
 
             <div class="field">
-                Repita a senha: <input type="password" id="password" name="password"
+                Repita a senha: <input onblur="validarSenha('psw1', 'psw2')" type="password" id="senha2" name="password"
                     placeholder="Repita a sua senha"><br><span> * campo obrigatório</span>
             </div>
 
@@ -172,7 +174,6 @@
             </section>
 
     </footer>
-
 </body>
 
 </html>
