@@ -66,7 +66,7 @@ svg {
   color: #fffefc;
   border: none;
   box-shadow: 4px 3px 3px var(--primary-color);
-  transition: 400ms;
+  transition: 300ms;
 }
 
 .btn-primary:focus,
