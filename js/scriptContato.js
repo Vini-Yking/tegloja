@@ -2,7 +2,7 @@ span = document.createElement("span");
 spantext = document.createTextNode("não pode ficar em branco");
 
 const testevalidadoEmail = () => {
-  emailcor = document.querySelector("#email");
+  emailcor = document.querySelector("#emailContato");
   emailcor.style.border = "1px solid red";
   label2 = document.querySelectorAll("label")[1];
 
@@ -35,7 +35,7 @@ const testeNome = () => {
 };
 
 const testeEmail = () => {
-  email = document.querySelector("#email");
+  email = document.querySelector("#emailContato");
   email.style.border = "";
   label2.textContent = "Email Ok!";
   email.style.transition = "800ms";
@@ -55,7 +55,7 @@ const validarNome = (nome) => {
 };
 
 const validarEmail = (email) => {
-  var email = document.querySelector("#email").value;
+  var email = document.querySelector("#emailContato").value;
 
   if (email === "") {
     testevalidadoEmail();
