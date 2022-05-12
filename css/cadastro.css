@@ -7,7 +7,7 @@ body {
 
 span {
     flex-direction: row-reverse;
-
+    color: black;
     font-size: smaller;
     font-style: italic;
 }
@@ -21,7 +21,7 @@ span {
     padding-inline: 1rem;
     padding-block: 1rem;
     border-radius: 0.5rem;
-    box-shadow: 4px 4px 4px 4px;
+    box-shadow: 4px 6px 12px -4px;
 }
 
 h3 {

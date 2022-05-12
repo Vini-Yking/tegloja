@@ -1,7 +1,6 @@
 body,
 html {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: 'Roboto';
   max-width: 100%;
 
   @media (568px) {
@@ -66,6 +65,7 @@ svg {
   color: #fffefc;
   border: none;
   box-shadow: 4px 3px 3px var(--primary-color);
+  transition: 400ms;
 }
 
 .btn-primary:focus,
@@ -80,3 +80,8 @@ svg {
   justify-content: center;
   margin-block: 0.7rem;
 }
+
+/* 
+span {
+  color: #fff;
+} */

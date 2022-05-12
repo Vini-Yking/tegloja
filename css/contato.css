@@ -23,7 +23,7 @@ main .row .col,
 textarea.form-control {
   padding-block: 10px;
   border-radius: 0.5rem;
-  box-shadow: 2px 2px 2px 2px;
+  box-shadow: 4px 6px 12px -4px;
 }
 
 .form-check-input:checked {
@@ -37,7 +37,7 @@ textarea {
 }
 
 header .row .col {
-  margin-left: 10px;
+  margin-inline: 10px;
 }
 
 .col-4 {
@@ -58,9 +58,13 @@ main .red {
 }
 
 main .row .col {
-  margin-left: 10px;
+  margin-inline: 10px;
 }
 
 .submit {
   width: 10rem;
+}
+
+.sair {
+  width: 15vw;
 }
