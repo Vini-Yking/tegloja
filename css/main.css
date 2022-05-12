@@ -60,6 +60,7 @@ svg {
   border: none;
 }
 
+
 .btn-primary:hover {
   background-color: var(--terd-color);
   color: #fffefc;
@@ -80,8 +81,3 @@ svg {
   justify-content: center;
   margin-block: 0.7rem;
 }
-
-/* 
-span {
-  color: #fff;
-} */
