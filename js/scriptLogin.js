@@ -10,9 +10,15 @@ const validarLogin = () => {
     // verificação dos inputs
     var index = usuarios.indexOf(email);
     if(index >= 0){
-        if(senhas[index] == senha)
-            return true;
-        else
+        if(senhas[index] === senha){
+            alert('Login aceito!');
             return false;
+        }
+        else{
+            alert('Login inválido!');
+        }
+    }
+    else{
+        alert('Usuário não encontrado!');
     }
 };
