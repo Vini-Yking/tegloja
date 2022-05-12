@@ -68,3 +68,7 @@ const validarEmail = (email) => {
     testeEmail();
   }
 };
+
+function msg() {
+  alert("Contato cadastrado Obrigado!");
+}
