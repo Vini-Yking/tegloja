@@ -1,7 +1,8 @@
 body,
 html {
-  font-family: 'Roboto';
+  font-family: "Roboto";
   max-width: 100%;
+  background-color: rgb(219, 219, 219);
 
   @media (568px) {
     height: 128vh;
@@ -60,7 +61,6 @@ svg {
   margin-inline: 4px;
 }
 
-
 .btn-primary:hover {
   background-color: var(--terd-color);
 
@@ -80,6 +80,10 @@ svg {
   display: flex;
   justify-content: center;
   margin-block: 0.7rem;
+}
+
+.card {
+  box-shadow: 4px 4px 6px -4px;
 }
 
 .card:hover {
