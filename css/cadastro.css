@@ -94,7 +94,7 @@ textarea {
   resize: none;
 }
 
-input[type="submit"] {
+#cadastro {
   display: block;
   height: 35px;
   border: none;
