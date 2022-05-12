@@ -26,8 +26,8 @@ const teste = () => {
 };
 
 const validarSenha = () => {
-  var senha1 = document.querySelector("#senha1").value;
-  var senha2 = document.querySelector("#senha2").value;
+  let senha1 = document.querySelector("#senha1").value;
+  let senha2 = document.querySelector("#senha2").value;
   if (senha1 != "" && senha2 != "" && senha1 !== senha2) {
     testevalidado();
   } else {
@@ -36,10 +36,10 @@ const validarSenha = () => {
 };
 
 function check() {
-  var nome = document.querySelector("#nome").value;
-  var email = document.querySelector("#emailCadastro").value;
-  var senha1 = document.querySelector("#senha1").value;
-  var senha2 = document.querySelector("#senha2").value;
+  let nome = document.querySelector("#nome").value;
+  let email = document.querySelector("#emailCadastro").value;
+  let senha1 = document.querySelector("#senha1").value;
+  let senha2 = document.querySelector("#senha2").value;
 
   if (
     nome !== "" &&

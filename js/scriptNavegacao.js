@@ -32,7 +32,7 @@ const navegaNext = () => {
 };
 
 const navegaPrev = () => {
-  var local = window.location.pathname;
+  let local = window.location.pathname;
 
   switch (local) {
     case "/index02.html":
