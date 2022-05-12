@@ -14,6 +14,7 @@
   <!-- Bootstrap Javascript -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" defer></script>
   <script src="/js/scriptNavegacao.js" defer></script>
+  <script src="/js/scriptLogin.js" defer></script>
 </head>
 
 <body>
@@ -64,9 +65,9 @@
                 </svg>
               </div>
               <form method="post">
-                <input type="text" name="email" class="mb-3" placeholder="Digite seu email" autofocus />
-                <input type="password" name="senha" class="mb-3" placeholder="Digite sua senha" autofocus />
-                <input type=" submit" class="btn-primary btn" class="mb-3" value="Entrar" />
+                <input type="text" name="email" class="mb-3" placeholder="Digite seu email" id="email" autofocus />
+                <input type="password" name="senha" class="mb-3" placeholder="Digite sua senha" id="senha" autofocus />
+                <input type="submit" class="btn-primary btn" onclick="validaLogin()" class="mb-3" value="Entrar" />
               </form>
               <span class="criar-conta">Ainda não tem uma conta?<a href="/cadastro.html">Criar
                   conta</a></span>
@@ -447,7 +448,6 @@
       </section>
 
   </footer>
-
 
 </body>
 

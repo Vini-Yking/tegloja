@@ -22,7 +22,7 @@ const teste = () => {
   labelnome.style.color = "";
 };
 
-const validarSenha = (psw1, psw2) => {
+const validarSenha = () => {
   var senha1 = document.querySelector("#senha1").value;
   var senha2 = document.querySelector("#senha2").value;
   if (senha1 != "" && senha2 != "" && senha1 !== senha2) {
