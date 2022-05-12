@@ -1,3 +1,4 @@
+// Usuários "mockados"
 const usuarios = ['nicolas@gmail.com', 'thiago@gmail.com', 'vinicios@gmail.com', 'hitalo@yahoo.com', 'gabriel@hotmail.com', 'patricia@outlook.com']
 const senhas = ['123', 'batata123', 'batata123456', '1111', '123', '9999']
 
@@ -9,15 +10,8 @@ const validarLogin = () => {
     // verificação dos inputs
     var index = usuarios.indexOf(email);
     if(index >= 0){
-        if(senhas[index] === senha){
-            alert('Login aceito!');
-            return false;
-        }
-        else{
-            alert('Login inválido!');
-        }
+        senhas[index] === senha ? alert('Login aceito!') : alert('Senha inválida!');
+        return;
     }
-    else{
-        alert('Usuário não encontrado!');
-    }
+    alert('Usuário não encontrado!');
 };
