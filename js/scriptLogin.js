@@ -22,3 +22,6 @@ const validarLogin = () => {
   }
   alert("Usuário não encontrado!");
 };
+$(function () {
+  $("#navigation").load("navbar.html");
+});
