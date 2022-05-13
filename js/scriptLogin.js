@@ -29,5 +29,8 @@ $(function () {
   $("#modallogin").load("login.html");
 });
 $(function () {
+  $("#caroussel").load("carousel.html");
+});
+$(function () {
   $("#footerbar").load("footer.html");
 });
