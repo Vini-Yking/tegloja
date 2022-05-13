@@ -25,3 +25,9 @@ const validarLogin = () => {
 $(function () {
   $("#navigation").load("navbar.html");
 });
+$(function () {
+  $("#modallogin").load("login.html");
+});
+$(function () {
+  $("#footerbar").load("footer.html");
+});
